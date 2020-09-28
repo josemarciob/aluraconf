@@ -3,20 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
+	<title>AluraConf</title>
 	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/header.css">
-		<title>AluraConf</title>
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/speakers.css">
+	<link rel="stylesheet" href="css/form.css">
+
 
 </head>
 <body>
 	<header class="header">
 		<nav class="main-menu">
 			<ul>
-				<li class="menu-item">
-					<a href="#">Sobre</a>
+				<li class="menu-item" id="sobre">
+					<a href="#panel-about">Sobre</a>
 				</li>
-				<li class="menu-item">
-					<a href="#">Palestrantes</a>
+				<li class="menu-item" id="palestrantes">
+					<a href="#panel-speakers">Palestrantes</a>
 				</li>
 			</ul>
 		</nav>
@@ -27,10 +32,111 @@
 			</section>
 
 			<section class="panel-subscribe">
-				<a href="#" class="button">Inscreva-se</a>
+				<a href="#panel-form" class="button">Inscreva-se</a>
 			</section>
 		</div>
 	</header>
 
-</body>
+		<section id="panel-about" class="panel panel-about">
+			<div class="container">
+				<h2 class="title">Muito conteúdo: do frontend ao backend</h2>
+				<h3 class="subtitle">30 de maio de 2017 - na Cidade Maravilhosa</h3>
+
+				<div class="about-description">
+					<p>Com AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolver mobile.</p>
+					<p>É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte backend com Res, Microservices, e BigData. O desenvolvedor atualizado vai estar aqui</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="panel-speakers" class="panel panel-speakers">
+			<div class="container">
+
+				<div class="about-speakers">
+					<h2 class="title">Palestrantes</h2>
+					<h3 class="subtitle">Aprenda com palestrantes que são referência no mercado</h3>
+				</div>
+
+				<ul class="speakers">
+
+					<li class="speaker">
+						<figure class="speaker-portrait">
+							<img class="speaker-img" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+							<figcaption class="speaker-name">Flávio Almeida</figcaption>
+							<p class="speaker-bio">Desenvolvedor e instrutor da Caelum</p>
+						</figure>
+						<p class="speaker-speach">To be or not to be MEAN</p>
+					</li>
+					<li class="speaker">
+						<figure class="speaker-portrait">
+							<img class="speaker-img" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+							<figcaption class="speaker-name">Flávio Almeida</figcaption>
+							<p class="speaker-bio">Desenvolvedor e instrutor da Caelum</p>
+						</figure>
+						<p class="speaker-speach">To be or not to be MEAN To be or not to be MEAN To be or not to be MEAN To be or not to be MEAN To be or not to be MEAN To be or not to be MEAN</p>
+					</li>
+					<li class="speaker">
+						<figure class="speaker-portrait">
+							<img class="speaker-img" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+							<figcaption class="speaker-name">Flávio Almeida</figcaption>
+							<p class="speaker-bio">Desenvolvedor e instrutor da Caelum</p>
+						</figure>
+						<p class="speaker-speach">To be or not to be MEAN</p>
+					</li>
+					<li class="speaker">
+						<figure class="speaker-portrait">
+							<img class="speaker-img" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+							<figcaption class="speaker-name">Flávio Almeida</figcaption>
+							<p class="speaker-bio">Desenvolvedor e instrutor da Caelum</p>
+						</figure>
+						<p class="speaker-speach">To be or not to be MEAN</p>
+					</li>
+					<li class="speaker">
+						<figure class="speaker-portrait">
+							<img class="speaker-img" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+							<figcaption class="speaker-name">Flávio Almeida</figcaption>
+							<p class="speaker-bio">Desenvolvedor e instrutor da Caelum</p>
+						</figure>
+						<p class="speaker-speach">To be or not to be MEAN</p>
+					</li>
+					<li class="speaker">
+						<figure class="speaker-portrait">
+							<img class="speaker-img" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+							<figcaption class="speaker-name">Flávio Almeida</figcaption>
+							<p class="speaker-bio">Desenvolvedor e instrutor da Caelum</p>
+						</figure>
+						<p class="speaker-speach">To be or not to be MEAN</p>
+					</li>
+					
+				</ul>
+
+			</div>
+		</section>
+
+		<section id="panel-form" class="panel-form">
+	        <div class="container">
+	            <h2 class="title">Seus dados</h2>
+	            <form>
+	                <div class="field">
+	                    <label>Nome</label>
+	                    <input class="field-input">
+	                </div>
+	                <div class="field">
+	                    <label>E-mail</label>
+	                    <input class="field-input"> 
+	                </div>
+	                <div class="button-place">
+	                    <button class="button">REALIZAR INSCRIÇÃO</button>
+	                </div>
+	            </form>
+	        </div>
+	    </section>
+
+	    <script src="js/jquery.js"></script>
+	    <script src="js/index.js"></script>
+
+
+
+	</body>
+
 </html>

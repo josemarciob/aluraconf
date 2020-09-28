@@ -45,15 +45,7 @@
 	margin-top: 8px;
 
 }
-.header .jumbotron .button{
-	display: inline-block;
-	color: white;
-	text-decoration: none;
-	font-size: 18px;
-	padding: 20px 50px;
-	background-color: #48A3A6;
-	border-radius: 8px;
-}
+
 .header .jumbotron .panel-subscribe{
 	margin-top: 28px;
 }
@@ -64,3 +56,4 @@
 		font-size: 28px;
 	}
 }
+
